@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Restaurante</title>
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsivo.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="menu">
+      <div class="produto selecionado">
+        <picture>
+          <source
+            srcset="./src/imagens/bg-McCrispyChickenElite.png"
+            media="(min-width: 768px)"
+          />
+          <img
+            class="imagem"
+            src="./src/imagens/bg-McCrispy Chicken Elite-mobile.png"
+            alt="McCrispy Chicken Elite"
+          />
+        </picture>
+        <div class="conteudo">
+          <h2 class="nome-produto">McCrispy Chicken Elite</h2>
+          <p class="descricao">
+            Composto por pão tipo brioche com batata, molho Honey&Fire, bacon em
+            fatias, alface, tomate, queijo sabor cheddar e carne 100% de peito
+            de frango, temperada e empanada, acompanhamento e bebida.
+          </p>
+        </div>
+      </div>
+
+      <div class="produto">
+        <picture>
+          <source
+            srcset="./src/imagens/bg-mcmelt.png"
+            media="(min-width: 768px)"
+          />
+          <img
+            class="imagem"
+            src="./src/imagens/bg-mcmelt -mobile.png"
+            alt="mcmelt"
+          />
+        </picture>
+        <div class="conteudo">
+          <h2 class="nome-produto">Mcmelt</h2>
+          <p class="descricao">
+            Composto por pão tipo brioche com batata, molho Honey&Fire, bacon em
+            fatias, alface, tomate, queijo sabor cheddar e carne 100% de peito
+            de frango, temperada e empanada, acompanhamento e bebida.
+          </p>
+        </div>
+      </div>
+
+      <div class="produto">
+        <picture>
+          <source
+            srcset="./src/imagens/bg-NovoBraboMeltOnionRings.png"
+            media="(min-width: 768px)"
+          />
+          <img
+            class="imagem"
+            src="./src/imagens/bg-Novo-Brabo-Melt-Onion-Rings-mobile.png"
+            alt="Novo-Brabo-Melt-Onion-Rings-mobile"
+          />
+        </picture>
+        <div class="conteudo">
+          <h2 class="nome-produto">Novo Brabo Melt Onion Rings</h2>
+          <p class="descricao">
+            Dois hambúrgueres de carne 100% bovina, méquinese, a exclusiva
+            maionese especial com sabor de carne defumada, onion rings, fatias
+            de bacon, queijo processado sabor cheddar, o delicioso molho lácteo
+            com queijo tipo cheddar tudo isso no pão tipo brioche trazendo uma
+            explosão de sabores pros seus dias de glória! Acompanhamento e
+            Bebida.
+          </p>
+        </div>
+      </div>
+      <div class="produto">
+        <picture>
+          <source
+            srcset="./src/imagens/bg-McOfertaMédiaBigMacDuplo.png"
+            media="(min-width: 768px)"
+          />
+          <img
+            class="imagem"
+            src="./src/imagens/bg-McOferta-Media-BigMac-Duplo-mobile.png"
+            alt="McOferta Media Big MacDuplo.png"
+          />
+        </picture>
+        <div class="conteudo">
+          <h2 class="nome-produto">Mc Oferta Media Big Mac Duplo mobile</h2>
+          <p class="descricao">
+            Quatro hambúrgueres (100% carne bovina), alface americana, queijo
+            fatiado sabor cheddar, molho especial, cebola, picles e pão com
+            gergilim, acompanhamento e bebida.
+          </p>
+        </div>
+      </div>
+    </main>
+    <ul class="botoes">
+      <li>
+        <button class="botao McCrispy selecionado">
+          <img
+            src="./src/imagens/icone-McCrispy Chicken Elite.png"
+            alt="McCrispy Chicken Elite"
+          />
+        </button>
+      </li>
+      <li>
+        <button class="botao mcmelt">
+          <img
+            src="./src/imagens/icone-mcmelt -mobile.png"
+            alt="Ícone mcmelt"
+          />
+        </button>
+      </li>
+      <li>
+        <button class="botao OnionRings">
+          <img
+            src="./src/imagens/icone-Novo-Brabo-Melt-OnionRings.png"
+            alt="Novo-Brabo-Melt-OnionRings"
+          />
+        </button>
+      </li>
+      <li>
+        <button class="botao bigMacDuplo">
+          <img
+            src="./src/imagens/icone-McOferta-Média-Big-Mac-Duplo.png"
+            alt="McOferta Média Big Mac Duplo"
+          />
+        </button>
+      </li>
+    </ul>
+
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>
